@@ -1,0 +1,471 @@
+/* Titulo1 */
+h1{
+    color:rgb(178, 16, 48);
+    font-size: 45px;
+    margin:50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Titulo2 */
+h2{
+    color:rgb(213, 144, 4);
+    font-size: 30px;
+    margin-top:60px;
+    margin: 15px;
+    padding:40px;
+    font-family:sans-serif;
+}
+
+/* Titulo3 */
+h3{
+    color:rgb(203, 30, 30);
+    font-size: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align:top;
+    margin:50px;
+}
+
+/* Titulo4 */
+h4{
+    color:rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align:center;
+    text-transform: capitalize;
+}
+
+/* Titulo5 */
+h5{
+    color:rgb(190, 0, 20);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 28px;
+    margin-top: 10px;
+    bottom: 20px;
+}
+
+/* Este es mi Body */
+body{
+width:1600px;
+background-color:#232526;
+}
+
+.Buscador{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 25px;
+    padding:10px;
+    justify-content: flex-start;
+    align-content: space-between;
+}
+
+.lupa{
+    align-items: flex-start;
+    color:white ;
+}
+
+.carrito{
+    width:40px;
+}
+
+nav{
+    color:rgb(255, 255, 255);
+    font-size: 16px;
+    margin: 20px;
+    padding:10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+img{
+    margin:8px;
+    margin-top: 20px ;
+}
+
+input{
+    color:rgb(52, 47, 47);
+    background-color:#FFFFFF;
+    font-size: 15px;
+    margin:4px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.video{
+    display: inline-block;
+}
+
+
+.caja{
+    background-color: rgb(102, 102, 102);
+    width: 1600px;
+    height:100px;
+    flex-wrap: wrap;
+    position:relative;
+    display:block;
+    justify-content: flex-start;
+    align-content: space-between;
+}
+
+.Barra{
+    background-color: rgb(255, 255, 255);
+    width:1600px;
+    height:135px;
+    padding:10px;
+    display:inline-block;
+}
+
+.Box{
+    background-color: rgb(106, 106, 104);
+    width:355px;
+    height:240px;
+    margin:20px;
+    border-radius: 5%;
+}
+
+.Box2{
+    background-color: rgb(106, 106, 104);
+    width:355px;
+    height:255px;
+    margin:20px;
+    border-radius: 5%;
+}
+
+.cont{
+    background-color: black;
+    display: block;
+    overflow-x: hidden;
+    width:260px;
+    height:270px;
+    margin:30px;
+    padding:0px;
+    border-radius:5%;
+}
+
+
+.contain{
+    background-color: rgb(255, 255, 255);
+    width: 255px;
+    height:255px;
+    border-radius: 50%;
+    margin: 25px;
+    padding:10px;
+    margin-top: 5%;
+    position: relative;
+}
+
+.contain2{
+    background-color:grey;
+    width:250px;
+    height: 340px;
+    padding:10px;
+    margin:60px;
+    border-radius: 5%;
+    display:-webkit-inline-box
+}
+
+.contain3{
+    background-color:grey;
+    width: 380px;
+    height: 270px;
+    padding:10px;
+    margin:60px;
+    border-radius: 5%;
+    display:-webkit-inline-box
+}
+
+
+main{
+    color:yellow;
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+    padding:10px;
+    text-align: center;
+    align-content: space-between;
+    margin:10px;
+    padding:20px;
+}
+
+.bottom{
+    color:yellow;
+    align-content: space-between;
+}
+
+
+header{
+    background-image: url(../imagenes/food-truck-ideas.png);
+    width:1600px;
+    height:360px;
+    flex-wrap: wrap;
+    position:static;
+    background-repeat: no-repeat;
+    background-size: cover;   
+    
+}
+
+
+.contenedor{
+   color:whitesmoke;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size: 60px;
+   margin:0px;
+   flex-direction: row;
+   position: relative;
+   text-align: justify;
+}
+
+
+.video{
+    margin:25px;
+
+}
+
+.Banner{
+   color:rgb(255, 255, 255);
+   font-size: 50px;
+   margin:8px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-align: justify;
+}
+
+.top-footer{
+   background-color: azure;
+
+}
+
+.href{
+    color:rgb(255, 255, 255);
+} 
+
+
+/* Esto es un checkbox */
+.checkbox{
+    background-color: whitesmoke;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+    width:420px;
+    height:420px;
+    margin:50px;
+    border-radius: 5%;
+}
+
+
+/* división de página */
+hr{
+    color:rgb(255, 255, 255);
+    margin:30px;
+}
+
+
+/* Texto */
+p{
+    color:rgb(255, 255, 255);
+    font-size: 15px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding:0px;
+    margin:10px;
+}
+
+/* Sección de pagina */
+
+section{
+    color:rgb(240, 228, 8);
+    margin-left:0px;
+    margin-top:20px;
+    padding:100px;
+}
+
+/*articulo de la pagina*/
+article{
+    background-color: #353535;
+    display: block;
+    overflow-x: hidden;
+    width:580px;
+    height:300px;
+    margin:30px;
+    border-radius: 5%;
+}
+
+
+/* atributos forms*/
+form{
+    font-size: 2 rem;
+    color:rgb(201, 131, 11);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin:15px;
+}
+
+ul{
+   color:rgb(255, 255, 255);
+   font-size: 15px;
+   margin:20px;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li{
+    color:white;
+    margin:5px;
+}
+
+ol{
+    color:brown;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: flex-start;
+}
+
+a{
+    color:rgb(220, 234, 18);
+    justify-items: left;
+    margin:10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+}
+
+hr{
+    padding: 20px;
+}
+
+ /*Imagen Card*/
+ .card-image{
+    margin-left: -0px;
+ }
+ 
+
+
+.card__title{
+
+    margin-right: 0px;
+}
+
+.card__description{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin:35px;
+}
+
+.btn{
+    color:rgb(255, 255, 255);
+    margin:25px;
+    display:flexbox;
+    margin-top: 10px;
+}
+
+.call{
+    color:whitesmoke;
+    font-size: 20px;
+    margin:25px;
+    margin-top: 35px;
+    font-family:monospace;
+}
+
+/*Aqui esta mi Grid*/
+.grillado{
+    display: grid; 
+    gap: 0.2rem; 
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); 
+    grid-template-rows: auto; 
+    grid-auto-flow: dense; 
+  }
+  
+  .grillado > div > img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+  }
+  
+  .vertical{
+    height:50vh;
+    align-content: space-between;
+    grid-row: span 1;
+    grid-column: span 1 ; 
+  }
+  
+  .grande {
+    height:80vh;
+    grid-column: span 2; 
+    grid-row: span 2; 
+  }
+  
+  .horizontal{
+    height:60vh;
+    grid-column: span 2;
+  }
+  
+/* Esto es el Footer*/
+.Pie{
+    background-image: url(../imagenes/burguer\ footer.jpg);
+    width:1600px;
+    height:500px;
+    flex-wrap:wrap;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-top: 50px;
+    display:flexbox;
+ }
+
+.center-footer{
+font-size: 25px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.widget{
+color:rgb(231, 5, 5);
+font-size: 25px;
+align-self: center;
+}
+
+
+  @media screen and (max-width: 320px){
+    .grillado{
+      grid-template-columns: 1fr; }
+  }
+  
+@media all and (max-width:1400px){
+    .img{
+        width:100%
+   }
+   .caja,.Barra,.Menu,body,header{
+       width:100%
+    }
+   .Pie{
+       width:100%
+   }
+}
+
+/* Mobile */
+
+@media screen and (max-width:480px){
+}
+
+/* Tablets */
+@media screen and (min-width:480px){
+}
+
+/* Desktop */
+@media screen and (min-width:1024px){
+}
+
+/* Functions first*/
+@import "../node_modules/bootstrap/scss/functions";
+
+
+/* Required Bootstrap imports*/
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/maps";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/root";
+
+/* Optional components*/
+@import "../node_modules/bootstrap/scss/utilities";
+@import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/containers";
+@import "../node_modules/bootstrap/scss/grid";
+@import "../node_modules/bootstrap/scss/helpers";
+@import "../node_modules/bootstrap/scss/utilities/api";
+
