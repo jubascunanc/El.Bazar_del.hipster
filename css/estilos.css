@@ -54,7 +54,7 @@ background-color:#232526;
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 25px;
-    padding:10px;
+    padding:0px;
     justify-content: flex-start;
     align-content: space-between;
 }
@@ -80,7 +80,7 @@ nav{
 
 
 img{
-    margin:8px;
+    margin:10px;
     margin-top: 20px ;
 }
 
@@ -92,8 +92,6 @@ input{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-
-
 .video{
     display: inline-block;
 }
@@ -102,7 +100,8 @@ input{
 .caja{
     background-color: rgb(102, 102, 102);
     width: 1600px;
-    height:100px;
+    height:155px;
+    margin-bottom: 30px;
     flex-wrap: wrap;
     position:relative;
     display:block;
@@ -113,7 +112,7 @@ input{
 .Barra{
     background-color: rgb(255, 255, 255);
     width:1600px;
-    height:135px;
+    height:145px;
     padding:10px;
     display:inline-block;
 }
@@ -197,9 +196,9 @@ main{
 
 
 header{
-    background-image: url(../imagenes/food-truck-ideas.png);
-    width:1600px;
-    height:360px;
+    background-image: url(../imagenes/foodtruck\ burguers.jpg);
+    width:1600x;
+    height:630px;
     flex-wrap: wrap;
     position:static;
     background-repeat: no-repeat;
@@ -209,7 +208,7 @@ header{
 
 
 .contenedor{
-   color:whitesmoke;
+   color:rgb(255, 255, 255);
    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
    font-size: 60px;
    margin:0px;
@@ -227,7 +226,7 @@ header{
 .Banner{
    color:rgb(255, 255, 255);
    font-size: 50px;
-   margin:8px;
+   margin:10px;
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    text-align: justify;
 }
@@ -236,10 +235,6 @@ header{
    background-color: azure;
 
 }
-
-.href{
-    color:rgb(255, 255, 255);
-} 
 
 
 /* Esto es un checkbox */
@@ -319,16 +314,13 @@ ol{
 }
 
 a{
-    color:rgb(220, 234, 18);
+    color:rgb(223, 170, 13);
     justify-items: left;
     margin:10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 22px;
 }
 
-hr{
-    padding: 20px;
-}
 
  /*Imagen Card*/
  .card-image{
@@ -373,6 +365,7 @@ hr{
   }
   
   .grillado > div > img {
+    margin:10px;
     width: 80%; 
     height: 60%; 
     object-fit: cover; 
