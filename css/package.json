@@ -1,0 +1,15 @@
+{
+  "name": "css",
+  "version": "1.0.0",
+  "description": "carpeta node sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Juanjose",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}
