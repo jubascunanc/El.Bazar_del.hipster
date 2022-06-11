@@ -100,7 +100,7 @@ input{
 .caja{
     background-color: rgb(102, 102, 102);
     width: 1600px;
-    height:155px;
+    height:150px;
     margin-bottom: 30px;
     flex-wrap: wrap;
     position:relative;
@@ -112,7 +112,7 @@ input{
 .Barra{
     background-color: rgb(255, 255, 255);
     width:1600px;
-    height:145px;
+    height:140px;
     padding:10px;
     display:inline-block;
 }
@@ -388,8 +388,12 @@ a{
   .horizontal{
     height:60vh;
     grid-column: span 2;
-  }
+ }
   
+.mapouter{
+    margin:30px;
+}
+
 /* Esto es el Footer*/
 .Pie{
     background-image: url(../imagenes/burguer\ footer.jpg);
