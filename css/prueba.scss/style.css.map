@@ -1,9 +1,9 @@
 {
     "version": 3,
-    "mappings": "style.css.map",
+    "mappings": "",
     "sources": [
         "style.sass"
     ],
-    "names": ["estilos sass"],
+    "names": [],
     "file": "style.css"
 }
