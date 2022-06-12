@@ -1,1 +1,6 @@
 /* No CSS *//*# sourceMappingURL=main.css.map */
+h1{
+    color:rgb(173, 38, 38);
+    border-color: azure;
+    border-style: groove;
+}
