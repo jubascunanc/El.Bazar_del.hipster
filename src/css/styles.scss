@@ -1,3 +1,79 @@
+/* Titulo1 */
 h1{
-    color:aqua ;
+    color:rgb(178, 38, 16);
+    font-size: 45px;
+    margin:50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+/* Titulo2 */
+h2{
+    color:rgb(213, 144, 4);
+    font-size: 30px;
+    margin-top:60px;
+    margin: 15px;
+    padding:40px;
+    font-family:sans-serif;
+}
+
+/* Titulo3 */
+h3{
+    color:rgb(203, 30, 30);
+    font-size: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align:top;
+    margin:50px;
+}
+
+/* Titulo4 */
+h4{
+    color:rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align:center;
+    text-transform: capitalize;
+}
+
+/* Titulo5 */
+h5{
+    color:rgb(190, 0, 20);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 28px;
+    margin-top: 10px;
+    bottom: 20px;
+}
+
+/* Este es mi Body */
+body{
+    width:1600px;
+    background-color:#232526;
+    }
+    
+    .Buscador{
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin: 25px;
+        padding:0px;
+        justify-content: flex-start;
+        align-content: space-between;
+    }
+    
+    .lupa{
+        align-items: flex-start;
+        color:white ;
+    }
+    
+    .carrito{
+        width:40px;
+    }
+    
+    nav{
+        color:rgb(255, 255, 255);
+        font-size: 16px;
+        margin: 20px;
+        padding:10px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
