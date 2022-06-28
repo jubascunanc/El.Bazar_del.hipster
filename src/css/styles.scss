@@ -345,6 +345,17 @@ form{
   }
 }
 
+.boton{
+    color: #58cc02;
+    box-shadow: 0 5px 0 #58a700;
+
+    .btn:active{
+        box-shadow: none;
+        transform: translateY(5px);
+    }
+}
+
+
 li{
     color:white;
     margin:5px;
