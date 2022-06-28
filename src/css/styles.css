@@ -381,6 +381,11 @@ ol {
           align-items: flex-start;
 }
 
+
+.btn{
+  color:whitesmoke;
+}
+
 .mapouter {
   margin: 30px;
 }
