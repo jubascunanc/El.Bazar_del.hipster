@@ -119,6 +119,12 @@ header .contenedor {
   text-align: justify;
 }
 
+
+.bienvenida{
+  text-align: center;
+  align-content: space-between;
+}
+
 h1 {
   color: #b21030;
   font-size: 45px;
@@ -334,6 +340,7 @@ section {
 hr {
   color: white;
   margin: 30px;
+  border-style: dashed;
 }
 
 .checkbox {
@@ -381,6 +388,11 @@ ol {
           align-items: flex-start;
 }
 
+
+.boton{
+  margin: 20px;
+  color:#cb1e1e;
+}
 
 .btn{
   color:whitesmoke;
